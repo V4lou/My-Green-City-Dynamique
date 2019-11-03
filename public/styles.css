@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+header {
+    background-color: #E9F3BB;
+    height: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.Logo {
+    width: 70px;
+    height: 70px;
+    padding: 0.5em;
+}
+.menu-responsive {
+    display: none;
+}
+.list-menu-header-responsive {
+    display: none;
+}
+.link-menu-header-logo {
+    padding: 0;
+}
+.list-menu-header {
+    display: flex;
+    align-items: center;
+}
+.element-menu-header {
+    list-style-type: none;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.link-menu-header {
+    color: #325050;
+    font-size: 1.8em;
+    text-decoration: none;
+    padding: 0.2em;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.link-menu-header-logo {
+    padding-right: 0;
+    padding-left: 0;
+}
+.link-menu-header:hover {
+    color: #597E47;
+}
+.img-presentation-header {
+    height: 500px;
+    background-image: url("https://valentin-fauchere.net/COURS/img-site-title.jpg");
+    display: flex;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box-txt-presentation-header {
+    margin: auto;
+}
+h1 {
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-size: 6em;
+}
+.figures {
+    display: flex;
+    flex-direction: row;
+    /*margin: 1em;*/
+    justify-content: space-around;
+    margin-top: 0.1em;
+    /* margin-right: 10px;
+    margin-left: 10px;*/
+    padding-bottom: 40px;
+
+}
+.section_Association a {
+    text-decoration: none;
+}
+.img-patrick {
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+}
+textarea {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 1em;  
+}
+input {
+    
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 40px;
+}
+@media only screen and (max-width: 740px) {
+
+    header {
+        text-align: center;
+        padding: 0;
+        display: block;
+    }
+    .box-logo {
+        margin: auto;
+    }
+    .Logo {
+        width: 100px;
+        height: 100px;
+    }
+    .list-menu-header {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    .menu-responsive {
+        display: block;
+    }
+    .list-menu-header-responsive {
+        display: block;
+        list-style-type: none;
+        padding: 0.5em;
+    }
+    .link-menu-header-logo {
+        /*margin: 0.6em;*/
+        display: inline-block;
+
+    }
+    .element-menu-header-responsive {
+        padding: 0.5em;
+    }
+    .link-menu-header-responsive {
+        font-size: 1.8em;
+        padding: 1.2em;
+        text-decoration: none;
+    }
+    .link-menu-header-responsive:hover {
+        color: #325050;
+    }
+    .img-presentation-header {
+        height: 300px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    /*Olivier*/
+    .section_Association {
+        display: flex;
+        flex-direction: column;
+    }
+    .figures {
+        display: flex;
+        flex-direction: column;
+    }
+    .footernote {
+        display: inherit;
+    }
+
+    footer p {
+        text-align: center;
+        width: inherit;
+    }
+    input {
+        width: 200px;
+    }
+
+    textarea {
+        width: 200px;
+    }
+    #username {
+        width: 200px;
+        height: 20px;
+        padding-left: 1em;
+
+    }
+    #email {
+        width: 200px;
+        height: 20px;
+        margin-left: 1em;
+    }
+
+    i {
+        padding: 8px;
+    }
+
+    button {
+        font-size: large;
+    }
+    .section_Association {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    h2 {
+        font-size: 1.9em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+    h4 {
+        font-size: 1.3em;
+    }
+    h5 {
+        font-size: 1.0em;
+    }
+
+    hr  {
+        margin-top: 4vw;
+        display: none;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .figures h4 {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img-patrick {
+        width: 170px;
+        height: 170px;
+    }
+
+    /* Partie css gestion de dechets */
+
+}
+
+/* Partie Actions */
+.TitreActions {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.action {
+    font-color: #325050;
+    margin: auto;
+    width: 100%;
+    background-color: #E9F3bb;
+    padding-top: 40px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+
+}
+
+/*img {
+  margin: 0.5em;
+  margin-bottom: 1px;
+  margin-top: 1px;
+ }*/
+
+
+figcaption {
+    padding: 1vw;
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: 0.5px;
+}
+
+/*.figures {
+  display: block;
+  text-align: center;
+}*/
+
+figure {
+    margin: 0 auto;
+}
+
+
+.action {
+    display: flex;
+    flex-flow: column;
+    background-color: #E9F3bb;
+    font-color: #325050;
+
+}
+
+
+figcaption {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 2em;
+}
+}
+
+/* Partie Assos*/
+
+/* Début css Olivier*/
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+    width: ;
+}
+
+.titreAsso {
+    background-color: white;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+.section_Association {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+/*.sectionContact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}*/
+
+.article {
+    text-align: center;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+}
+
+.img-olivier {
+    margin: 0 auto;
+    width: 12vw;
+    height: 12vw;
+    padding: 1vw;
+}
+
+.vignette {
+    width: 15vw;
+    height: 15vw;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: auto;
+}
+
+.information {
+    float: left;
+    width: 75vw;
+
+}
+
+.article_2 {
+    text-align: center;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.9em;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+/* partie dechets */
+section {
+    background-color: #e9f3bb;
+    color: #325050;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.projet1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.litlleDechets {
+    padding-left: 55px;
+}
+.conseils {
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+}
+img[alt="imageConseil"] {
+    width: 40%;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+h3 {
+    text-align: center;
+    font-size: 2.2em;
+}
+.titreDechets {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.test1 {
+    width: 45%;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding : 20px 29px 20px 29px;
+    line-height: 25px;
+    background-color: #F9F9E7;
+    border-radius: 15px;
+    border-bottom: 1.5px solid #325050;
+}
+
+img[alt="ImagePointdecollecte"] {
+    width: 45%;
+    border-radius: 10%;
+}
+.ptcollecte {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+.pageCollecte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    align-items: center;
+    list-style-type: none;
+}
+summary {
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 15px;
+}
+details {
+    font-size: 1.2em;
+    width: 500px;
+    padding: 10px;
+    background-color: #F9F9E7;
+    border-radius: 7px;
+    border:  1.5px solid #325050;
+}
+@media only screen and (max-width: 1200px) {
+    img[alt="ImagePointdecollecte"] {
+        display: none;
+    }
+}
+@media only screen and (max-width : 900px) {
+    .projet1{
+        display: flex;
+        flex-direction: column;
+    }
+    img[alt="imageConseil"] {
+        display: flex;
+        width: 70%;
+        align-self: center;
+        margin-left: 0px;
+    }
+    .litlleDechets {
+        padding-bottom: 0.8em;
+        padding-left: 0px;
+    }
+    .test1{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width : 70%;
+        margin : 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+    details {
+        width: 500px;
+    }
+    img[alt="ImagePointdecollecte"] {
+        display: none;
+    }
+}
+@media only screen and (max-width : 550px) {
+    .test1 {
+        width: 70%;
+    }
+    details {
+        width: 300px;
+        font-size: 1em;
+    }
+}
+/* fin css dechets*/
+/*Début CSS Anthony*/
+* {
+    color: #325050;
+}
+
+/*Formulaire de contact version desktop*/
+.contact {
+    /*padding: 25px;*/
+}
+
+.formulaire {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #e9f3bb;
+}
+
+form  {
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 40px;
+}
+
+label {
+    padding-right: 1em;
+    display: block;
+}
+
+
+.box-button {
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+/*Footer version desktop*/
+footer {
+    color: #32292F;
+    background-color: #F9F9E7;
+}
+
+.footernote {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+footer p {
+    width: 50%;
+    padding: 20px;
+}
+
+
+i {
+    font-size: 3em;
+    padding-right: 40px;
+    padding: 20px;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.plan a {
+    text-decoration: none;
+    color: #32292F;
+    font-size: 2em;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+/* Partie css gestion de dechets */
+
+
+
+@media screen and (max-width:740px) {
+
+    .section_Association {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    h2 {
+        font-size: 1.9em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+    h4 {
+        font-size: 1.3em;
+    }
+    h5 {
+        font-size: 1.0em;
+    }
+
+    hr	{
+        margin-top: 4vw;
+        display: none;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .figures h4 {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .img-olivier {
+        width: 24vw;
+        height: 24vw;
+    }
+}
+.Img-Asso {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.Img-Asso > img {
+    width: 15%;
+    height: 15%;
+}
+.section-contact-asso {
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.Titre-Asso {
+    color: #325050;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2em;
+}
+.describe-asso {
+    font-size: 1.2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.contact-asso {
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.error-form {
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.button-submit-2 {
+    padding: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: auto;
+    line-height: 10px;
+}
+.div-error {
+    display: block;
+    flex: none;
+}
+
+#username {
+    width: 300px;
+    height: 20px;
+    padding-left: 1em;
+
+}
+#email {
+    width: 300px;
+    height: 20px;
+    padding-left: 1em;
+}
+.result-contact-title {
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 4em;
+
+}
+.link-return {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 2em;
+}
+.align-return {
+    text-align: center;
+    padding-bottom: 5em;
+    padding-top: -8em;
+}
+.align-input {
+    text-align: center;
+}
+.title-asso {
+    font-size: 1.2em;
+}
+.box-contact-asso {
+    text-align: center;
+    margin-top: 1em;
+}
+.box-contact-asso > a {
+    font-size: 1.6em;
+}

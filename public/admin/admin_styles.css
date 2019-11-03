@@ -1,0 +1,60 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+}
+.main-box {
+    margin-top: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.button-add-box {
+    text-align: right;
+    margin-right: 2em;
+}
+.form-delete {
+    margin-top: 0.8em;
+}
+.card {
+    width: 600px;
+    margin-bottom: 1em;
+    margin-left: 22em;
+}
+.align-input {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5em;
+}
+.box-return {
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-bottom: 2em;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin: 1em;
+    list-style-type: none;
+}
+textarea {
+    width: 600px;
+    height: 400px;
+}
+#titre {
+width: 400px
+}
+#image {
+    width: 400px
+}
+#lien {
+    width: 400px
+}
